@@ -1,0 +1,16 @@
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\ConfigureSample.exe.config
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\ConfigureSample.exe
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\ConfigureSample.pdb
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\Common.dll
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\Common.pdb
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\obj\x86\Debug\ConfigureSample.csprojResolveAssemblyReference.cache
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\obj\x86\Debug\ConfigureSample.exe
+C:\ACS_Main\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\obj\x86\Debug\ConfigureSample.pdb
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\ConfigureSample.exe.config
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\ConfigureSample.exe
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\ConfigureSample.pdb
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\Common.dll
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\bin\Debug\Common.pdb
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\obj\x86\Debug\ConfigureSample.csprojResolveAssemblyReference.cache
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\obj\x86\Debug\ConfigureSample.exe
+C:\ACS_staging\private\Product\Samples\Websites\ASPNETSimpleMVC4\ConfigureSample\obj\x86\Debug\ConfigureSample.pdb
