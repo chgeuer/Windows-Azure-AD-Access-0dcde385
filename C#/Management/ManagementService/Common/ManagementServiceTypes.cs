@@ -15,7 +15,7 @@
 //---------------------------------------------------------------------------------
 
 
-namespace ACS.Management
+namespace Common.ACS.Management
 {
     #region Identity provider object types
 

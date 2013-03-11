@@ -14,7 +14,7 @@
 // permissions and limitations under the License.
 //---------------------------------------------------------------------------------
 
-namespace ACS.Management
+namespace Common.ACS.Management
 {
     using System;
     using System.Collections.Generic;
@@ -82,8 +82,8 @@ namespace ACS.Management
         {
             string metadataImportHead = "v2/mgmt/service/importFederationMetadata/importIdentityProvider";
             string metadataImporter = string.Format("https://{0}.{1}/{2}",
-                SamplesConfiguration.ServiceNamespace,
-                SamplesConfiguration.AcsHostUrl,
+                svc.ServiceNamespace,
+                svc.AcsHostUrl,
                 metadataImportHead);
 
             HttpWebRequest postRequest = (HttpWebRequest)WebRequest.Create(metadataImporter);
@@ -94,7 +94,7 @@ namespace ACS.Management
                 postRequest.Headers["metadataUrl"] = metadataSource.OriginalString;
             }
 
-            ExecuteMetadataImportOperation(postRequest, metadataStream);
+            ExecuteMetadataImportOperation(svc, postRequest, metadataStream);
         }
 
         /// <summary>
@@ -122,19 +122,19 @@ namespace ACS.Management
         {
             string metadataImportHead = "v2/mgmt/service/importFederationMetadata/importRelyingParty";
             string metadataImporter = string.Format("https://{0}.{1}/{2}",
-                SamplesConfiguration.ServiceNamespace,
-                SamplesConfiguration.AcsHostUrl,
+                svc.ServiceNamespace,
+                svc.AcsHostUrl,
                 metadataImportHead);
 
             HttpWebRequest postRequest = (HttpWebRequest)WebRequest.Create(metadataImporter);
             postRequest.Method = "POST";
 
-            ExecuteMetadataImportOperation(postRequest, metadataStream);
+            ExecuteMetadataImportOperation(svc, postRequest, metadataStream);
         }
 
-        private static void ExecuteMetadataImportOperation(HttpWebRequest postRequest, Stream metadataStream)
+        private static void ExecuteMetadataImportOperation(ManagementService svc, HttpWebRequest postRequest, Stream metadataStream)
         {
-            ManagementServiceHelper.GetTokenWithWritePermission(postRequest);
+            svc.GetTokenWithWritePermission(postRequest);
 
             using (Stream postStream = postRequest.GetRequestStream())
             {

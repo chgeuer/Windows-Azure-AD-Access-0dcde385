@@ -14,12 +14,8 @@
 // permissions and limitations under the License.
 //---------------------------------------------------------------------------------
 
-namespace ACS.Management
+namespace Common.ACS.Management
 {
-    /// <summary>
-    /// Defines the configuration that the sample needs. Refer to Readme for how to updated the various parameters
-    /// in this file once registration with ACS is done.
-    /// </summary>
     public static class SamplesConfiguration
     {
         //
@@ -31,7 +27,7 @@ namespace ACS.Management
         // Management Service Configuration information.
         //
         public const string ManagementServiceIdentityName = "ManagementClient";
-        public const string ManagementServiceIdentityKey = "...Copy Management Service Password...";        
+        public const string ManagementServiceIdentityKey = "...Copy Management Service Password...";
 
         //
         // ACS endpoint information.

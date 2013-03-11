@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ManagementServiceExtensions.cs" />
+    <Compile Include="ManagementService.cs" />
     <Compile Include="ManagementServiceHelper.cs" />
     <Compile Include="ManagementServiceTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

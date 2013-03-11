@@ -20,7 +20,6 @@ namespace ACSv2.SDK.ManagementService.ServiceKey
     using System.Linq;
     using System.Security.Cryptography;
     using System.Text;
-    using ACS.Management;
     using Common.ACS.Management;
 
     /// <summary>
